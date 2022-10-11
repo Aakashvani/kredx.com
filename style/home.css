@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navbar css  */
+nav {
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px 10px 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.menu_list > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu_list > ul > li {
+  padding-left: 15px;
+}
+
+/* hero section css    */
+.hero {
+  width: 100%;
+}
+.handshak_banner > img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+/*  TODO: form css is left */
+.form {
+}
+
+.form_container {
+}
+
+/* why KredX section css */
+.why_kredX {
+  height: 800px;
+  padding: 15px 150px 15px 150px;
+}
+
+.why_kredX_body_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+}
+
+.why_kredX_heading {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #212529;
+}
+.why_kredX_heading > span {
+  color: #00cdc6;
+}
+
+.why_kredX_body_container > div {
+  max-width: 70%;
+  padding: 5px;
+}
+
+/* HELPING BUSINESS OWNERS SINCE 2015 = {Stat section} */
+.helping_business {
+  background: #0d0d0d;
+  padding: 55px 150px 45px 150px;
+  color: #fff;
+}
+
+.helping_business_heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.helping_business_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+}
+
+.helping_business_container > div > p:nth-child(1) {
+  color: #fff;
+  font-size: 27px;
+  letter-spacing: 1.5px;
+  margin-bottom: -12px;
+}
+
+.helping_business_container > div > p:nth-child(2) {
+  color: #00cdc6;
+  font-size: 20px;
+}
+
+.stat_hr_div {
+  padding-top: 50px;
+}
+
+hr.stat_hr {
+  border: 0.5px solid rgb(53, 53, 53);
+}
+
+/* contact us section css */
+.contact_section {
+  background: #fff;
+  padding: 155px 150px 45px 150px;
+}
+.contact_section > h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.contact_section > div > p {
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer css  */
+footer {
+  background-color: #0d0d0d;
+
+  color: #fff;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 150px 25px 150px;
+  text-align: center;
+  align-items: center;
+}
+.logo_footer > img{
+  width: 150px;
+  height: 30px;
+
+}
+.copyright_text >p {
+  font-size: 15px;
+}

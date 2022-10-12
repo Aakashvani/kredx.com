@@ -36,6 +36,7 @@ nav {
 /* hero section css    */
 .hero {
   width: 100%;
+  position: relative;
 }
 .handshak_banner > img {
   width: 100%;
@@ -45,15 +46,121 @@ nav {
 
 /*  TODO: form css is left */
 .form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
 }
 
 .form_container {
+  width: 90%;
+  height: 500px;
+  max-width: 440px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  padding: 25px;
+  border-radius: 8px;
+  position: absolute;
+  left: 760px;
+  top: 210px;
+  z-index: 1000;
 }
 
+.w-full {
+  width: 98%;
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
+}
+
+.form_group {
+  /* width: 100%; */
+  margin-top: 10px;
+}
+
+.form_group input {
+  width: 100%;
+  background-color: #f7f7f7;
+  border: 1px solid transparent;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.form_group input:focus {
+  outline: solid 1px #00cdc6;
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.displayFlex input:nth-child(1) {
+  margin-right: 10px;
+}
+
+/* btn next  */
+button.next_btn {
+  float: right;
+  margin-top: 260px;
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 1px solid #00cdc6;
+  color: #00cdc6;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.next_btn:hover {
+  background-color: #00cdc6;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* btn previous */
+button.previous_btn {
+  float: left;
+  margin-top: 289px;
+  padding: 10px 8px;
+  background-color: #fff;
+  border: none;
+  color: rgb(0, 162, 255);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.previous_btn:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* btn submit */
+button.submit_btn {
+  float: right;
+  margin-top: 290px;
+  padding: 10px 30px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.submit_btn:hover {
+  background-color: #00cdc6;
+  border: 1px solid #fff;
+  color: #fff;
+}
 /* why KredX section css */
 .why_kredX {
   height: 800px;
-  padding: 15px 150px 15px 150px;
+  padding: 100px 150px 15px 150px;
 }
 
 .why_kredX_body_container {

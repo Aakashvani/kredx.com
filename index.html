@@ -32,7 +32,84 @@
         <img src="./assets/1.png" alt="handshakBanner" />
       </div>
       <div class="form">
-        <div class="form_container"></div>
+        <div class="form_container">
+          <form>
+            <!-- step 1 -->
+            <div class="step step_1 active">
+              <p>
+                <span style="font-weight: 600">Unlock Your Working Capital</span
+                ><br />
+                Get Funds As Soon As You Receive The Invoice. Accelerate Your
+                Cash Inflow By Converting The Company’s Account Receivable Into
+                Liquid Cash.
+              </p>
+              <div class="form_group w-full">
+                <input
+                  type="text"
+                  id="industryName"
+                  name="industryName"
+                  placeholder="Industry Name"
+                />
+              </div>
+              <div class="form_group">
+                <div class="displayFlex">
+                  <input
+                    type="text"
+                    id="invoiceValue"
+                    name="invoiceValue"
+                    placeholder="Invoice Value"
+                  />
+                  <input
+                    type="text"
+                    id="tenure"
+                    name="tenure"
+                    placeholder="Tenure"
+                  />
+                </div>
+              </div>
+              <button type="button" class="next_btn">Next</button>
+            </div>
+
+            <!-- step 2  -->
+            <div class="step step_2">
+              <div class="form_group">
+                <input
+                  type="text"
+                  id="companyName"
+                  name="companyName"
+                  placeholder="Company Name"
+                />
+              </div>
+
+              <div class="form_group">
+                <input
+                  type="email"
+                  id="companyEmail"
+                  name="companyEmail"
+                  placeholder="Company EmailID"
+                />
+              </div>
+
+              <div class="form_group">
+                <input
+                  type="text"
+                  id="mobileNumber"
+                  name="mobileNumber"
+                  placeholder="Mobile Number"
+                />
+              </div>
+              <button type="button" class="previous_btn">< Previous</button>
+              <button type="submit" class="submit_btn">
+                Submit
+                <span
+                  ><img
+                    src="https://www.kredx.com/images/working-capital/white-right-arrow.svg"
+                    alt=""
+                /></span>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
 
@@ -175,7 +252,9 @@
     <!-- footer  -->
     <footer>
       <div class="footer_container">
-        <div class="logo_footer"><img src="./assets/sap-footer-logo.svg" alt="logo" /></div>
+        <div class="logo_footer">
+          <img src="./assets/sap-footer-logo.svg" alt="logo" />
+        </div>
         <div class="copyright_text"><p>©2022 Minions Ventures Pvt Ltd</p></div>
       </div>
     </footer>

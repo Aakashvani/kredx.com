@@ -101,10 +101,6 @@ nav {
   outline: solid 1px #00cdc6;
 }
 
-.displayFlex {
-  display: flex;
-  justify-content: space-between;
-}
 .displayFlex input:nth-child(1) {
   margin-right: 10px;
 }
